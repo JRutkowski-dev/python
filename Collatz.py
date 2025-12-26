@@ -1,0 +1,15 @@
+
+def collatz_sequence(x):
+	seq = [x]
+	while seq[-1] > 1:
+		if x % 2 == 0:
+			seq.append(x//2)
+		else:
+			seq.append(3*x+1)
+		x = seq[-1]
+	return seq
+
+user_input = int(input("podaj liczbe startowa: "))
+
+print (collatz_sequence(user_input))
+
