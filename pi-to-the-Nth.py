@@ -1,11 +1,11 @@
-import mpmath import mp
+import mpmath
 
-Pi = math.pi
-
-
-n = int(input("podaj do ktorej liczby po przecinku chcialbys wyliczyc z Pi(max 14)"))
-
-mp.dps = n + 1
+Pi = mpmath.pi
 
 
-print (mp.pi)
+n = int(input("podaj do ktorej liczby po przecinku chcialbys wyliczyc z Pi(max 14):"))
+
+mpmath.mp.dps = n + 1
+
+
+print (mpmath.mp.pi)
