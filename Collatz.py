@@ -9,3 +9,4 @@ def collatz_sequence(x):
 		x = seq[-1]
 	return seq
 
+print (collatz_sequence(5))
