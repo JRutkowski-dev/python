@@ -9,4 +9,7 @@ def collatz_sequence(x):
 		x = seq[-1]
 	return seq
 
-print (collatz_sequence(5))
+user_input = int(input("podaj liczbe startowa: "))
+
+print (collatz_sequence(user_input))
+
