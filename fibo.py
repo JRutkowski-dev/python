@@ -1,5 +1,5 @@
 
-n = 10
+n = int(input("podaj jak dlugi ma byc ciag: "))
 a = 0
 b = 1
 next = b
