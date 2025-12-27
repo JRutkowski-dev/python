@@ -1,11 +1,11 @@
 def dec_to_bin(
-	decimal = int(input("podaj liczbe dla konwertera do liczby binarnej: "
+	decimal = int(input("podaj liczbe dla konwertera do liczby binarnej: "))
 	binary = format(decimal, 'b')
 	print (f"Binarny z {decimal} to {binary}")
 	)
 
 def bin_to_dec(
-	binary = int(input("podaj liczbe dla konwertera do liczny decymalnej: ")
+	binary = int(input("podaj liczbe dla konwertera do liczny decymalnej: "))
 	decimal = int(binary, 2)
 	print (f"decymalny z {binary} to {decimal}")
 	)
