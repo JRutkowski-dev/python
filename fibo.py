@@ -1,7 +1,7 @@
 
 n = int(input("podaj jak dlugi ma byc ciag: "))
 a = 0
-b = 1
+b = int(input("od jakiej liczby powinien sie ciag zaczynac: "))
 next = b
 count = 1
 
