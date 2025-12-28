@@ -5,11 +5,14 @@ def coinflip():
 	recordlist = []
 	orzel = 0
 	reszka = 0
-	flip = random.randint(0, 1)
-	if (flip == 0):
-		print ("orzel")
-		recordlist.append("orzel")
-	else:
-		print ("reszka")
-		recordlist.append("reszka")
+	for i in range(number):
+		flip = random.randint(0, 1)
+		if (flip == 0):
+			print ("orzel")
+			recordlist.append("orzel")
+		else:
+			print ("reszka")
+			recordlist.append("reszka")
+	print (str(recordlist))
 	print (str(recordlist.count("orzel")) + str(recordlist.count("reszka")))
+coinflip()
