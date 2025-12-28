@@ -1,7 +1,7 @@
 import random
 
 def coinflip():
-	number = input("ile razy chcesz rzucic moneta: ")
+	number = int(input("ile razy chcesz rzucic moneta: "))
 	recordlist = []
 	orzel = 0
 	reszka = 0
