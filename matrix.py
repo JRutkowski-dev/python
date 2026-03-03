@@ -1,7 +1,7 @@
 import random
 import time
 
-width = 70
+width = 220
 flipsPerLine = 5
 sleepTime = 0.1
 
